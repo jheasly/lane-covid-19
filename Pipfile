@@ -9,6 +9,7 @@ verify_ssl = true
 yolk3k = "*"
 jupyterlab = "*"
 pandas = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.8"
