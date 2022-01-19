@@ -1,15 +1,16 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+jupyterlab = "*"
 
 [dev-packages]
 
-[packages]
-yolk3k = "*"
-jupyterlab = "*"
-pandas = "*"
-jupyter = "*"
-
 [requires]
 python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
