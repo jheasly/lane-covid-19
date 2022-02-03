@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lane-covid-19"
+version = "0.1.0"
+description = "virtualenv for running Jupyter notebook lane covid"
+authors = ["J. Heasly"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+jupyterlab = "^3.2.8"
+pandas = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
